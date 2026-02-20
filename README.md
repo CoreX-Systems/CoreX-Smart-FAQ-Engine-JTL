@@ -20,7 +20,7 @@ Direkte Beantwortung von Kundenfragen im Sichtfeld der Produktbilder reduziert d
 1. Lade den Ordner `api/` auf deinen Server hoch.
 2. Erstelle einen Unterordner `api/cache/` mit Schreibrechten (755).
 3. Binde das JavaScript `smart-faq-engine.js` in deinem Shop-Template ein.
-4. Trage deinen API-Key in der `api/config.php` ein.
+4. Trage deinen API-Key in der `api/config.php` ein. (Für Anfänger benutzt die hinterlegte KI : groq.com)
 
 ## 🎨 Design & UI
 Das Frontend wurde im **Clean-Design** entwickelt:
@@ -31,7 +31,7 @@ Das Frontend wurde im **Clean-Design** entwickelt:
 ## 🔍 SEO & Funktionsweise
 
 ### Wie die KI arbeitet
-Das System analysiert die `product-description` direkt im Browser des ersten Besuchers. Dieser Text wird an das Backend gesendet, wo eine KI (z.B. GPT-4 oder Gemini) drei gezielte Fragen und Antworten generiert, die Kaufhürden abbauen.
+Das System analysiert die `product-description` direkt im Browser des ersten Besuchers. Dieser Text wird an das Backend gesendet, wo eine KI drei gezielte Fragen und Antworten generiert, die Kaufhürden abbauen.
 
 ### Das Caching-Prinzip (Kostenersparnis)
 * **Schritt 1**: Ein Kunde besucht ein neues Produkt.
